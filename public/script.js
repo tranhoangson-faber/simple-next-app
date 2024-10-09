@@ -14,7 +14,7 @@
 </Script>
 
 // DEV
-<script type="text/javascript" id="mierucaOptimizejs">
+<script id='mierucaOptimizejs' strategy='beforeInteractive'>
 window.__optimizeid = window.__optimizeid || [];
 __optimizeid.push([1864963081]);
 (function() {

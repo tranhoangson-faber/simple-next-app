@@ -6,7 +6,7 @@ export default function Document() {
         <Html lang='en'>
             <Head>
                 <Script id='mierucaOptimizejs' strategy='beforeInteractive'>
-             window.__optimizeid = window.__optimizeid || [];
+	    {`window.__optimizeid = window.__optimizeid || [];
              __optimizeid.push([1864963081]);
         (function() {
 	var fjs = document.createElement('script');
@@ -17,7 +17,7 @@ export default function Document() {
 	fjs.src = 'https://dev.opt.mieru-ca.com/service/js/mieruca-optimize-dev.js?v=' + timestamp.getTime();
 	var x = document.getElementsByTagName('script')[0];
 	x.parentNode.insertBefore(fjs, x);
-        })();
+        })();`}
                 </Script>
             </Head>
             <body>

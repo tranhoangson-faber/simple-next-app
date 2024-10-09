@@ -4,7 +4,7 @@ export default function Document() {
     return (
         <Html lang='en'>
             <Head>
-                <Script src='script.js' strategy='beforeInteractive' />
+                <Script src='/script.js' strategy='beforeInteractive' />
             </Head>
             <body>
                 <Main />

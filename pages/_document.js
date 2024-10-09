@@ -5,7 +5,8 @@ export default function Document() {
     return (
         <Html lang='en'>
             <Head>
-                <Script src='/script.js' strategy='beforeInteractive' />
+                <link rel='icon' href='/simple-next-app/favicon.ico' />
+                <Script src='/simple-next-app/script' strategy='beforeInteractive' />
             </Head>
             <body>
                 <Main />
